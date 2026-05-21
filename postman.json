@@ -1,0 +1,79 @@
+{
+  "info": {
+    "name": "Painter API Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Postman collection for the Painter API endpoints."
+  },
+  "item": [
+    {
+      "name": "Get all painters",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/painters",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "painters"]
+        }
+      }
+    },
+    {
+      "name": "Get random painter",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/painters/random",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "painters", "random"]
+        }
+      }
+    },
+    {
+      "name": "Get painter by id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/painters/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "painters", "1"]
+        }
+      }
+    },
+    {
+      "name": "Get random quote",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/painters/quotes/random",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "painters", "quotes", "random"]
+        }
+      }
+    },
+    {
+      "name": "Get random response",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/painters/responses/random",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "painters", "responses", "random"]
+        }
+      }
+    }
+  ]
+}
